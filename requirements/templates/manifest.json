@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "generatedAt": "<ISO8601>",
+  "items": [
+    {
+      "type": "epic",
+      "id": "EPIC-<slug>",
+      "title": "<…>",
+      "status": "Planned",
+      "path": "requirements/epics/EPIC-<slug>-v1.md",
+      "features": ["FEAT-<epic-slug>-<slug>"]
+    },
+    {
+      "type": "feature",
+      "id": "FEAT-<epic-slug>-<slug>",
+      "title": "<…>",
+      "status": "Planned",
+      "priority": "Must",
+      "path": "requirements/features/FEAT-<epic-slug>-<slug>-v1.md",
+      "epic": "EPIC-<slug>",
+      "stories": ["US-<feat-slug>-001"]
+    },
+    {
+      "type": "story",
+      "id": "US-<feat-slug>-001",
+      "title": "<…>",
+      "status": "Planned",
+      "priority": "Should",
+      "path": "requirements/stories/US-<feat-slug>-001-v1.md",
+      "feature": "FEAT-<epic-slug>-<slug>",
+      "epic": "EPIC-<slug>"
+    }
+  ]
+}
